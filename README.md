@@ -1,2 +1,2 @@
-# Student Attendance Records - Java app
-Student attendance records
+# Student Attendance Records
+Student attendance records - Java app
