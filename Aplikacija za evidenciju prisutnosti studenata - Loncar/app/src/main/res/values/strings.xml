@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerApp</string>
+    <string name="etHint">Ime</string>
+    <string name="btnAdd">DODAJ</string>
+</resources>

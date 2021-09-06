@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_layout_height"
+    android:padding="@dimen/dimen_padding">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="@dimen/dimen_tv_layout_width"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        tools:text="FERIT student"
+        android:textSize="@dimen/dimen_textSize"/>
+
+    <ImageView
+        android:id="@+id/ivCross"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/tvName"
+        android:src="@drawable/red_cross"
+        />
+
+</RelativeLayout>
